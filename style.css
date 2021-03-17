@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;900&display=swap');
 
 *
 {
@@ -55,6 +55,7 @@ h2
     top: 0;
     position: fixed;
     width: 100%;
+    z-index: 10;
 }
 
 .nav-bar a
@@ -106,6 +107,34 @@ section
     min-height: 100vh;
 }
 
+.subscribe-button
+{
+    display: flex;
+    width: 100%;
+}
+
+.button {
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(236, 1, 1);
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin: auto 0 auto auto;
+    align-self: right;
+    border: solid rgb(236, 1, 1);
+    transition: 300ms;
+    display: block;
+}
+
+.button:hover {
+    background-color: rgb(236, 1, 1);
+    color: rgb(30, 30, 30);
+    box-shadow: 0 0 50px rgba(212, 0, 0, 0.76);
+    transition: 300ms;
+}
+
 .scroll-arrow
 {
     margin-top: 200px;
@@ -126,6 +155,125 @@ hr
     background-color: #0c71fd;
     border: none;
     margin: 30px auto;
+}
+
+.youtube-stats-container
+{
+    width: 50%;
+    height: 200px;
+    margin: 70px auto auto auto;
+    display: flex;
+}
+
+@keyframes live-animation
+{
+    0%   { opacity:1; }
+    50%  { opacity:0.2; }
+    100% { opacity:1; }
+}
+
+#youtube-stats h2
+{
+    padding-top: 150px;
+    font-size: 40px;
+
+    animation: live-animation 1500ms cubic-bezier(0.485, 0.535, 0.15, 0.86) infinite;
+}
+
+.youtube-profilepic
+{
+    display: block;
+    margin: auto 22px auto 0;
+    width: 70px;
+    height: 70px;
+}
+
+.youtube-stats-channelname
+{
+    display: block;
+    height: min-content;
+    margin: auto 0px;
+}
+
+.youtube-stats-channelname p
+{
+    text-align: left;
+    display: block;
+    opacity: 0.5;
+}
+
+.youtube-stats-channelname a
+{
+    text-align: left;
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.account-info-item
+{
+    margin: auto;
+    font-size: 20px;
+    width: 50%;
+    height: 40px;
+}
+
+.account-info-item p
+{
+    float: left;
+}
+
+#total-views
+{
+    opacity: 0.7;
+    font-size: 20px;
+    float: right;
+}
+
+#total-videos
+{
+    opacity: 0.7;
+    font-size: 20px;
+    float: right;
+}
+
+.subgoal-container
+{
+    width: 50%;
+    margin: auto;
+}
+
+.youtube-milestones h3
+{
+    margin-top: 50px;
+    color: white;
+    font-size: 30px;
+}
+
+#subgoal
+{
+    margin-top: 40px;
+    color: white;
+    background-color: rgb(236, 1, 1);
+}
+
+.subgoal-container p
+{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#subgoal-min
+{
+    float: left;
+}
+
+#subgoal-max
+{
+    float:right;
 }
 
 #about h2
