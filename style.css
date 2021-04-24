@@ -83,6 +83,7 @@ h2
 .logo-item img
 {
     width: 40px;
+    scale: 400%;    
 }
 
 .logo-item a:hover
@@ -97,7 +98,7 @@ h2
     font-size: large;    
     color: rgb(255, 255, 255);
     float: left;
-    margin-left: 25px;
+    margin-left: 90px;
     font-weight: 700;
     transition: 150ms;
 }
