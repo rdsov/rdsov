@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;900&display=swap');
 
 *
@@ -17,28 +17,16 @@ body
     overflow-x: hidden;
 }
 
-@keyframes landingPage 
-{
-    from 
-    {
-        opacity: 0;
-        transform: translateX(-100px);
-    }
-    to 
-    {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
 h1
 {
-    animation: landingPage 800ms;
+    /* animation: landingPage 800ms; */
     color: white;
     text-align: center;
-    margin-top: 300px;
-    font-size: 55px;
+    padding-top: 300px;
+    font-size: 70px;
     font-weight: 900;
+    text-shadow: 0 0 25px #000000;   
+    font-family: 'Inter';
 }
 
 h2
@@ -48,27 +36,76 @@ h2
     font-size: 30px;
 }
 
+h3
+{
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 20px;
+    font-weight: 500;
+    text-shadow: 0 0 25px #000000;   
+    font-family: 'Inter';
+}
+
+a
+{
+    color:#ffffff;
+    text-decoration-color: #0c71fd;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+    font-weight: 400;
+    font-size: 18px;    
+    text-align: center;
+    text-shadow: 0 0 25px #000000;
+    transition: 150ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+a:hover
+{
+    color: #4b97ff;
+    transform: translateY(3px);
+    transition: 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.nav-bar-container
+{
+    width: 100%;
+    position: absolute;
+}
+
 .nav-bar
 {
-    background-color: rgba(12, 12, 12, 0.9);
-    overflow: hidden;
-    top: 0;
-    position: fixed;
-    width: 100%;
-    z-index: 10;
+    width: 90%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.nav-bar-left
+{
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+
+.nav-bar-right
+{
+    display: flex;
+    height: 100px;
+    align-items: center;
 }
 
 .nav-bar a
 {
-    float: right;
     color:white;
     text-decoration: none;
     font-weight: 400;
     font-size: 18px;    
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
     margin-right: 25px;
+    text-shadow: 0 0 25px #000000;
     transition: 150ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
@@ -80,27 +117,51 @@ h2
     transition: 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.logo-item img
+.logo
 {
-    width: 40px;
-    scale: 400%;    
+    margin-left: 25px;
+    height: 60px;
+    transition: 150ms;
 }
 
-.logo-item a:hover
+.logo img
+{
+    image-rendering: -webkit-optimize-contrast;
+    height: 60px;
+}
+
+.logo:hover
 {
     opacity: 0.5;
     transition: 200ms;
 }
 
-.logo-item a
+#home p
 {
-    text-decoration: none;
-    font-size: large;    
-    color: rgb(255, 255, 255);
-    float: left;
-    margin-left: 90px;
-    font-weight: 700;
-    transition: 150ms;
+    float: right;
+    margin: 100px 100px auto;
+}
+
+.landing-page-img
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -2;
+}
+
+.landing-page-cover
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: black;
+    opacity: 0.2;
+    z-index: -1;
 }
 
 section
@@ -138,8 +199,8 @@ section
 
 .scroll-arrow
 {
-    margin-top: 200px;
-    height: 30px;
+    display: inline-block;
+    margin-top: 40px;
     transition: 150ms;
 }
 
@@ -149,6 +210,12 @@ section
     transition: 200ms;
 }
 
+.scroll-arrow-container a img
+{
+    image-rendering: -webkit-optimize-contrast;
+    height: 50px;
+}
+
 hr
 {
     height: 6px;
@@ -156,6 +223,55 @@ hr
     background-color: #0c71fd;
     border: none;
     margin: 30px auto;
+}
+
+.section-header
+{
+    padding-top: 200px;
+    display: block;
+    height: auto;
+}
+
+#lyrics .section-header h2
+{
+    font-size: 45px;
+    text-align: left;
+    margin-left: 250px;
+}
+
+#lyrics hr
+{
+    margin: 30px auto auto 250px;
+}
+
+.lyrics-wrapper
+{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+
+.lyrics-info
+{
+    display: block;
+    overflow: hidden;
+    width: 720px;
+    margin-top: 50px;
+    /* margin-left: 250px; */
+}
+
+#lyrics p
+{
+    text-align: left;
+    font-size: 20px;
+}
+
+#lyric-video
+{
+   /* float: right; */
+   /* margin-right: 250px; */
+   display: block;
 }
 
 .youtube-stats-container
@@ -407,11 +523,13 @@ footer
 
 .twitter-img
 {
+    image-rendering: -webkit-optimize-contrast;
     width: 30px;
 }
 
 .instagram-img
 {
+    image-rendering: -webkit-optimize-contrast;
     width: 29px;
 }
 
@@ -447,6 +565,7 @@ footer p
     opacity: 0.5;
     display: block;
     font-weight: normal;
+    text-align: left;
 }
 
 .footer-about a:hover

@@ -10,26 +10,57 @@
     </head>
     
     <body>
-        <div class="nav-bar">
-            <div class="logo-item">
-                <a href="https://futureblur.com">
-                    <img src="img/futureblur-logo-full.png" alt="Futureblur Logo">
-                </a>
+        <div class="nav-bar-container">
+            <div class="nav-bar">
+                <div class="nav-bar-left">
+                    <a class="logo" href="https://futureblur.com">
+                        <img src="img/futureblur-logo-full.png" alt="Futureblur Logo">
+                    </a>
+                </div>
+                <div class="nav-bar-right">
+                    <a href="https://store.futureblur.com">Store</a>
+                    <a href="#">Gallery</a>
+                    <a href="youtube.html">YouTube</a>
+                </div>
+                <!-- <a href="discord.html">Discord</a> -->
             </div>
-            <a href="#">About</a>
-            <a href="youtube.html">YouTube</a>
-            <!-- <a href="discord.html">Discord</a> -->
         </div>
     
         <section id="home">
-            <h1>Software Developer 👨‍💻<br> Content Creator 🎬</h1>
-            <div class="scroll-arrow-container>">
-                <a href="#youtube-stats">
-                    <img class="scroll-arrow" src="img/arrow-down.png" alt="ArrowDown">
+            <video autoplay muted loop class="landing-page-img">
+                <source src="img/Render.mov" type="video/mp4">
+                Your browser does not support videos.
+            </video> 
+            <div class="landing-page-cover"></div>
+            <!-- <div class="landing-page-img"></div> -->
+            <h1>Software Engineer,<br>Digital Artist</h1>
+            <h3>Explore my creations</h3>
+            <div class="scroll-arrow-container">
+                <a class="scroll-arrow" href="#lyrics">
+                    <img src="img/arrow-down.png" alt="ArrowDown">
                 </a>
             </div>
-    
+           <p>Background: <a href="retroglitch.html">Retro Glitch</a></p>
         </section>
+
+        <section id="lyrics">
+            <div class="section-header"><h2>Lyric videos made with ❤️</h2></div>
+            <hr>
+            <div class="lyrics-wrapper">
+                <div class="lyrics-info">
+                    <p>Enjoy ad-free, high quality lyric videos with a fancy visualizer!</p>
+                    <p>I think that small producers deserve more attention. That's why I have decided to create 
+                        a <a href="youtube.html">YouTube channel</a>, where I promote music. The genres include 
+                        (Future) Trap, Future Bass, EDM, Dubstep, House and much more!
+                        <br><br>If you want to be featured on Futureblur, submit your demo <a href="#">here</a>.
+                        I would be more than happy to listen to your track!
+                    </p>
+                </div>
+                <div id="lyric-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/hJEgEG-gecU?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            </section>
     
         <section id="youtube-stats">
             <h2>🔴 LIVE YouTube Stats</h2>
@@ -152,7 +183,7 @@
         
             </div>
             <div class="footer-legal">
-                <a href="imprint.html">Imprint</a>
+                <a href="imprint">Imprint</a>
                 <a href="#">Privacy</a>
                 <p>&copy; Futureblur 2021</p>
             </div>
