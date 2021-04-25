@@ -140,7 +140,7 @@
                     </a>
                 </ul>
             </div>
-
+    
             <div class="footer-about">
                 <p>About</p>
                 <ul class="social-list">
@@ -149,7 +149,7 @@
                     <a href="#">Contact me</a>
                 </ul>
             </div>
-
+    
         </div>
         <div class="footer-legal">
             <a href="imprint.html">Imprint</a>
@@ -158,5 +158,4 @@
         </div>
     </footer>
 </body>
-
 </html>
