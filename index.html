@@ -6,6 +6,7 @@
     <link rel="icon" type="image/png" href="img/futureblur-logo.png">
     <link rel="stylesheet" href="style.css">
     <script src="scripts/subcount.js"></script>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
     <title>Home - Futureblur</title>
 </head>
 
@@ -121,6 +122,11 @@
         </div>
     </section>
 
-    <?php include('footer.php'); ?>
+    <script> 
+        $(function(){
+          $("#footer").load("footer.html"); 
+        });
+    </script> 
+    
 </body>
 </html>
