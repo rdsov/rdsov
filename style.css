@@ -712,3 +712,44 @@ p
 {
     font-size: inherit;
 }
+
+#imprint h1
+{
+    text-align: left;
+    margin: auto;
+    width: 50%;
+    padding-top: 200px;
+}
+
+#imprint h2
+{
+    text-align: left;
+    margin: 42px auto auto auto;
+    width: 50%;
+    font-weight: 500;
+}
+
+#imprint h3
+{
+    text-align: left;
+    margin: 35px auto auto auto;
+    width: 50%;
+    padding: 0;
+}
+
+#imprint p
+{
+    text-align: left;
+    width: 50%;
+    margin: auto;
+}
+
+#imprint hr
+{
+    position: absolute;
+}
+
+#imprint a
+{
+    font-size: inherit;
+}
