@@ -33,7 +33,7 @@ h2
 {
     color: white;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 45px;
 }
 
 h3
@@ -258,7 +258,6 @@ hr
     overflow: hidden;
     width: 720px;
     margin-top: 50px;
-    /* margin-left: 250px; */
 }
 
 #lyrics p
@@ -269,8 +268,45 @@ hr
 
 #lyric-video
 {
-   /* float: right; */
-   /* margin-right: 250px; */
+   display: block;
+}
+
+#retroglitch .section-header h2
+{
+    font-size: 45px;
+    text-align: right;
+    margin-right: 250px;
+}
+
+#retroglitch p
+{
+    text-align: right;
+    font-size: 20px;
+}
+
+.retroglitch-info
+{
+    display: block;
+    overflow: hidden;
+    width: 720px;
+    margin-top: 50px;
+}
+
+#retroglitch hr
+{
+    margin: 30px 250px auto auto;
+}
+
+.retroglitch-wrapper
+{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+
+#retroglitch-video
+{
    display: block;
 }
 
@@ -608,4 +644,71 @@ footer p
 p
 {
     color: white;
+}
+
+#privacy h1
+{
+    text-align: left;
+    margin: auto;
+    width: 50%;
+    padding-top: 200px;
+}
+
+#privacy h2
+{
+    text-align: left;
+    margin: 42px auto auto auto;
+    width: 50%;
+    font-weight: 500;
+}
+
+#privacy h3
+{
+    text-align: left;
+    margin: 35px auto auto auto;
+    width: 50%;
+    padding: 0;
+}
+
+#privacy p
+{
+    text-align: left;
+    width: 50%;
+    margin: auto;
+}
+
+.hr-div
+{
+    width: 50%;
+    margin: auto;
+    height: 70px;
+    display: block;
+}
+
+#privacy hr
+{
+    position: absolute;
+}
+
+#privacy br
+{
+    line-height: 42px;
+}
+
+#privacy ul
+{
+    text-align: left;
+    width: 45%;
+    margin: 20px auto 40px auto;
+    color: white;
+}
+
+#privacy ul li p
+{
+    width: 100%;
+}
+
+#privacy a
+{
+    font-size: inherit;
 }
