@@ -1,5 +1,5 @@
 # Hey everyone 👋
-## I am Futureblur, a developer from Germany.
+## I am Futureblur, a Software Engineer and YouTuber.
 
 Currenty working on a game engine ⚙
 
