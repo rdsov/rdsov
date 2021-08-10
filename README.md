@@ -5,7 +5,7 @@
 
 Join the community: https://futureblur.com/discord
 
-<img align="left" src="https://komarev.com/ghpvc/?username=Futureblur&color=blue&style=flat-square">
+<img align="left" src="https://komarev.com/ghpvc/?username=Futureblur&color=yellow&style=flat">
 
 <br/>
 
