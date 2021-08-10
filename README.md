@@ -1,7 +1,9 @@
 # Hey everyone 👋
-## I am Futureblur, a Software Engineer and YouTuber.
+## I'm Futureblur, a Software Engineer and Digital Artist
 
-Currenty working on a game engine ⚙
+🌍 I just launched my new website! Modern design, mobile support & more: https://futureblur.com 
+
+Join the community: https://futureblur.com/discord
 
 <img align="left" src="https://komarev.com/ghpvc/?username=Futureblur&color=blue&style=flat-square">
 
