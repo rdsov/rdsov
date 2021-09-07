@@ -3,7 +3,21 @@
 
 🌍 I just launched my new website! Modern design, mobile support & more: https://futureblur.com 
 
-Join the community: https://futureblur.com/discord
+🎺 Languages I speak:
+* C++
+* C#
+* JavaScript
+
+📚 My Gear:
+* Unreal Engine 5
+* CLion
+* WebStorm
+* Rider
+* Blender
+
+🧊 Currently working on Iceblur Engine: https://ice.futureblur.com
+
+🕵️‍♂️ Join the community and chat with us: https://futureblur.com/discord
 
 <img align="left" src="https://komarev.com/ghpvc/?username=Futureblur&color=yellow&style=flat">
 
