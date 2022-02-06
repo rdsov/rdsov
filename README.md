@@ -15,7 +15,7 @@
 * Rider
 * Blender
 
-🧊 Currently working on Iceblur Engine: https://ice.futureblur.com
+⚡ I love to experiment around with new things
 
 🕵️‍♂️ Join the community and chat with us: https://futureblur.com/discord
 
