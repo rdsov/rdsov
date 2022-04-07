@@ -7,6 +7,8 @@
 * C++
 * C#
 * JavaScript
+* Kotlin
+* Python
 
 📚 My Gear:
 * Unreal Engine 5
