@@ -10,7 +10,7 @@
 * Kotlin
 * Python
 
-📚 My Gear:
+🛠 My Gear:
 * Unreal Engine 5
 * CLion
 * WebStorm
