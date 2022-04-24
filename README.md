@@ -25,7 +25,7 @@
 
 <br/>
 
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=futureblur&theme=dark&background=000000)](https://git.io/streak-stats)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Futureblur&theme=highcontrast&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
 
 <img align="left" src="https://github-readme-stats.vercel.app/api?username=Futureblur&show_icons=true&hide_border=true&title_color=ecb647&bg_color=0d1117&text_color=6C6C6C&icon_color=ecb647"><br/>
 
