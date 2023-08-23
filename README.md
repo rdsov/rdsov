@@ -27,7 +27,7 @@ When I'm not coding, I'm [Creative Pursuits]. Some of my recent projects include
 
 ## ✨ GitHub Stats
 
-![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=futureblur&show_icons=true&theme=dark)
+![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=rdsov&show_icons=true&theme=dark)
 
 ## 🌍 Let's Connect
 
