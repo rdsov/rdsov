@@ -1,25 +1,52 @@
-# Hey everyone 👋
-## I'm Futureblur, a Software Engineer and Digital Artist
+# Welcome.
 
-🌍 I just launched my new website! Modern design, mobile support & more: https://futureblur.com 
+I'm Rasul Adasov, a developer and creative digital artist who strives to produce some of the highest quality content in the world. I'm on a journey to explore the realms of technology and creativity.
 
-🎺 Languages I speak:
-* C++
-* C#
-* JavaScript
-* Kotlin
-* Python
+## 🚀 About Me
 
-🛠 My Gear:
-* Unreal Engine 5
-* CLion
-* WebStorm
-* Rider
-* Blender
+- 🌱 I’m currently learning Swift
+- ⚡️ Caught in a constant cycle of switching between UI/UX design, coding, video/audio editing and content creation 
 
-⚡ I love to experiment around with new things
+## 🛠️ Tech Stack
 
-🕵️‍♂️ Join the community and chat with us: https://futureblur.com/discord
+Here are some technologies and tools I enjoy working with:
+- Next.js
+- SwiftUI
+- Xcode
+- C++
+- CLion
+- OpenGL/Vulkan/Metal
+
+## 🎨 Creative Ventures
+
+When I'm not coding, I'm [Creative Pursuits]. Some of my recent projects include:
+
+- 🎨 Create Emotions, not Videos [(Watch showreel on YouTube)](https://youtu.be/lEJwP7UA_PA)
+- 📖 Futureblur Blog [(Read on Hashnode)](https://blog.futureblur.com)
+- 🎵 Retro Glitch [(Listen on YouTube)](https://youtu.be/89iXrz1Cdt8)
+
+## ✨ GitHub Stats
+
+![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=futureblur&show_icons=true&theme=radical)
+
+## 🌍 Let's Connect
+
+Feel free to connect with me on other platforms:
+
+- [LinkedIn](https://www.linkedin.com/in/rasuladasov)
+- [Twitter](https://twitter.com/blur4d)
+- [Web](https://www.futureblur.com)
+
+## 📚 Latest Blog Posts
+
+<!-- BLOG-POST-LIST:START -->
+- [The abosolue state of package management in C++](https://blog.futureblur.com/the-absolute-state-of-package-management-in-cpp)
+<!-- BLOG-POST-LIST:END -->
+
+Thanks for stopping by! Let's collaborate and create something amazing together. 🌟
+
+-----
+
 
 <img align="left" src="https://komarev.com/ghpvc/?username=Futureblur&color=yellow&style=flat">
 
