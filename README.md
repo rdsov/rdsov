@@ -27,7 +27,7 @@ When I'm not coding, I'm [Creative Pursuits]. Some of my recent projects include
 
 ## ✨ GitHub Stats
 
-![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=futureblur&show_icons=true&theme=radical)
+![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=futureblur&show_icons=true&theme=dark)
 
 ## 🌍 Let's Connect
 
@@ -44,16 +44,3 @@ Feel free to connect with me on other platforms:
 <!-- BLOG-POST-LIST:END -->
 
 Thanks for stopping by! Let's collaborate and create something amazing together. 🌟
-
------
-
-
-<img align="left" src="https://komarev.com/ghpvc/?username=Futureblur&color=yellow&style=flat">
-
-<br/>
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Futureblur&theme=highcontrast&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
-
-<img align="left" src="https://github-readme-stats.vercel.app/api?username=Futureblur&show_icons=true&hide_border=true&title_color=ecb647&bg_color=0d1117&text_color=6C6C6C&icon_color=ecb647"><br/>
-
-<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Futureblur&show_icons=true&hide_border=true&title_color=6C6C6C&bg_color=0d1117&text_color=6C6C6C&icon_color=ecb647&layout=compact"><br/>
