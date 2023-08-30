@@ -19,7 +19,7 @@ Here are some technologies and tools I enjoy working with:
 
 ## 🎨 Creative Ventures
 
-When I'm not coding, I'm [Creative Pursuits]. Some of my recent projects include:
+Some of my recent projects include:
 
 - 🎨 Create Emotions, not Videos [(Watch showreel on YouTube)](https://youtu.be/lEJwP7UA_PA)
 - 📖 Futureblur Blog [(Read on Hashnode)](https://blog.futureblur.com)
